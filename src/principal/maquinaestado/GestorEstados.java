@@ -1,6 +1,6 @@
 package principal.maquinaestado;
 
-import java.awt.Graphics2D;
+import java.awt.Graphics;
 
 import principal.maquinaestado.estados.juego.GestorJuego;
 
@@ -27,7 +27,7 @@ public class GestorEstados {
 		estadoActual.actualizar();
 	}
 	
-	public void dibujar(Graphics2D g) {
+	public void dibujar(Graphics g) {
 		estadoActual.dibujar(g);
 	}
 	

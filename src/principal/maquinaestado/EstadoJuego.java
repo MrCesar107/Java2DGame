@@ -1,8 +1,8 @@
 package principal.maquinaestado;
 
-import java.awt.Graphics2D;
+import java.awt.Graphics;
 
 public interface EstadoJuego {
 	void actualizar();
-	void dibujar(Graphics2D g);
+	void dibujar(Graphics g);
 }
